@@ -1,4 +1,4 @@
-i# Site settings
+# Site settings
 title: AutoDeployAI
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"

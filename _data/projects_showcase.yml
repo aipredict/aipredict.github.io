@@ -1,0 +1,59 @@
+intro: |-
+  我们在[GitHub](https://github.com/autodeployai)上开源了多个关于<a href="https://dmg.org/pmml/v4-4-1/GeneralStructure.html">PMML</a>和<a href="https://onnx.ai/">ONNX</a>标准模型交换格式的核心预测库，满足用户在多种语言（Scala、Java和Python）和执行环境（Spark）下使用PMML或者ONNX来进行模型上线部署：
+  * AI-Serving：PMML和ONNX模型推理引擎。
+  * PyPMML：基于Python的PMML预测库。
+  * PMML4S：基于Scala的PMML预测库。
+  * PMML4S-Spark：运行在Spark中的PMML预测库。
+  * PyPMML-Spark：运行在PySpark中基于Python的PMML预测库。
+items:
+  - title: AI-Serving
+    subtitle: PMML和ONNX模型推理引擎
+    description: |-
+      AI-Serving是一款开源的机器学习和深度学习模型部署推理（inference）系统，支持标准的PMML和ONNX格式，同时提供HTTP和gRPC两种接口，方便在不同的生产环境中上线部署PMML和ONNX模型。
+    image: /img/ai-serving.png
+    image_ratio: is-128x128
+    link: https://github.com/autodeployai/ai-serving
+    link_text: AI-Serving详情
+    tags: PMML,ONNX,PMML REST,ONNX REST,PMML gPRC,ONNX gPRC
+    github: autodeployai/ai-serving
+  - title: PyPMML
+    subtitle: 基于Python的PMML预测库
+    description: |-
+      PyPMML是基于Python的PMML预测库，它实际上是PMML4S的Python包装。
+    image: /img/pypmml.png
+    image_ratio: is-128x128
+    link: https://github.com/autodeployai/pypmml
+    link_text: PyPMML详情
+    tags: PMML,Python PMML
+    github: autodeployai/pypmml
+  - title: PMML4S
+    subtitle: 基于Scala的PMML预测库
+    description: |-
+      PMML4S是基于Scala的PMML预测库，支持Scala和Java接口。
+    image: /img/pmml4s.png
+    image_ratio: is-128x128
+    link: https://github.com/autodeployai/pmml4s
+    link_text: PMML4S详情
+    tags: PMML,Scala PMML,Java PMML
+    github: autodeployai/pmml4s
+  - title: PyPMML-Spark
+    subtitle: 运行在PySpark中基于Python的PMML预测库
+    description: |-
+      PyPMML-Spark是一个PySpark Transformer，运行在PySpark下执行大数据的批量预测任务，它实际上是PMML4S-Spark的Python包装。
+    image: /img/pypmml-spark.png
+    image_ratio: is-128x128
+    link: https://github.com/autodeployai/pypmml-spark
+    link_text: PyPMML-Spark详情
+    tags: PMML,PySpark PMML
+    github: autodeployai/pypmml-spark
+  - title: PMML4S-Spark
+    subtitle: 运行在Spark中的PMML预测库
+    description: |-
+      PMML4S-Spark是一个Spark Transformer，运行在Spark下执行大数据的批量预测任务。
+    image: /img/pmml4s-spark.png
+    image_ratio: is-128x128
+    link: https://github.com/autodeployai/pmml4s-spark
+    link_text: PMML4S-Spark详情
+    tags: PMML,Spark PMML
+    github: autodeployai/pmml4s-spark
+

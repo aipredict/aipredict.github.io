@@ -1,0 +1,11 @@
+<p><strong>分享</strong></p>
+<div class="buttons {% if include.centered %} is-centered {% endif %}">
+    <a class="button is-medium"
+       onclick="window.open('https://service.weibo.com/share/share.php?url={{ site.url }}{{ page.url | prepend: site.baseurl }}&title={{ page.title | url_encode }}');">
+        <span class="icon"><i class="fab fa-weibo fa-lg"></i></span>
+    </a>
+    <a class="button is-medium"
+       onclick="window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{ site.url }}{{ page.url | prepend: site.baseurl }}&title={{ page.title | url_encode }}');">
+        <span class="icon"><i class="fab fa-qq fa-lg"></i></span>
+    </a>
+</div>

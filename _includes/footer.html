@@ -1,0 +1,35 @@
+<footer class="footer">
+    <div class="container">
+
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="columns is-multiline is-centered">
+            <div class="column is-12">
+                <div class="has-text-centered">
+                    <p><strong>保持联系</strong></p>
+                    <div class="buttons is-centered">
+                        <a href="https://github.com/autodeployai" class="button is-light" target=_blank>
+                            <i class="fab fa-github fa-lg has-text-link"></i>
+                        </a>
+                        <a href="https://www.zhihu.com/people/aipredict" class="button is-light" target=_blank>
+                            <i class="fab fa-zhihu fa-lg has-text-link"></i>
+                        </a>
+                    </div>
+
+                    <p>模版主题 <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+                    <p>&copy; <script>document.write(""+new Date().getFullYear());</script> AutoDeployAI</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

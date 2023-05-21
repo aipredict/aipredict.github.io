@@ -1,0 +1,14 @@
+- name: 产品
+  link: /products
+  dropdown:
+    - name: AI-DaaS
+      link: /products/ai-daas
+    - name: AI-Serving
+      link: /products/ai-serving
+- name: 开源
+  link: /opensource
+- name: 关于我们
+  link: /about
+- name: 博客
+  link: /blog
+

@@ -1,0 +1,51 @@
+i# Site settings
+title: AutoDeployAI
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  基于Kubernetes的模型部署方案。自动上线部署机器学习模型、深度学习模型到生产环境中, 支持PMML, ONNX, Python模型, 神经网络模型, Scikit-learn, XGBoost, LightGBM, Spark, TensorFlow, Keras, PyTorch, MXNet等模型。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cn.autodeployai.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: autodeployai
+github_username:  autodeployai
+lang: zh-CN
+
+# Build settings
+remote_theme: chrisrhymes/bulma-clean-theme
+livereload: true
+favicon: /favicon.ico
+
+# Pagination settings
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Build settings
+markdown: kramdown
+
+#Syntax Highlighter
+highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - github-pages
+
+sass:
+  style: compressed
+
+collections:
+  products: 
+    output: true
+    layout: product
+    show_sidebar: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "AutoDeployAI"
+      layout: post
+      show_sidebar: true
+

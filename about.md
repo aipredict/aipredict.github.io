@@ -16,5 +16,5 @@ show_sidebar: true
 产品体验或者合作咨询，您可以发送邮件到以下地址。关于产品体验，您既可以选择体验我们在云端的AI-DaaS部署系统，又可以选择在您的私有环境下部署AI-DaaS体验版。
 
 ```
-autodeploy.ai(at)outlook.com
+info(at)autodeployai.com
 ```
